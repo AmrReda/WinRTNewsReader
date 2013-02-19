@@ -7,7 +7,15 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:common="using:WinRTNewsReader.Win8App.Common"
     mc:Ignorable="d">
-
+<common:LayoutAwarePage.BottomAppBar>
+        <AppBar x:Name="bottomAppBar" Padding="10,0,10,0">
+            <Grid> 
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button   Style="{StaticResource RefreshAppBarButtonStyle}" Click="HandleReloadClick"/> 
+                </StackPanel>
+            </Grid>
+        </AppBar>
+    </common:LayoutAwarePage.BottomAppBar>
     <UserControl  Loaded="StartLayoutUpdates" Unloaded="StopLayoutUpdates">
         <Border>
             <VisualStateManager.VisualStateGroups>

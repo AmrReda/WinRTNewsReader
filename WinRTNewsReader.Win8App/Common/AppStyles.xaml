@@ -5,7 +5,11 @@
     <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary Source="StandardStyles.xaml"/>
     </ResourceDictionary.MergedDictionaries>
-
+    <Style x:Key="RefreshAppBarButtonStyle" TargetType="Button" BasedOn="{StaticResource AppBarButtonStyle}">
+        <Setter Property="AutomationProperties.AutomationId" Value="RefreshAppBarButton"/>
+        <Setter Property="AutomationProperties.Name" Value="Refresh"/>
+        <Setter Property="Content" Value="&#xE117;"/>
+    </Style>
     <Style TargetType="Border" x:Key="ContentBorder">
         <Setter Property="BorderBrush" Value="{StaticResource AppBarBorderThemeBrush}"  />
         <Setter Property="BorderThickness" Value=".5"/>
