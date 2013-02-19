@@ -1,0 +1,2 @@
+K:\MyProjects\@GitHub\WinRTNewsReader\SQLite\SQLite.vcxproj;x86
+K:\MyProjects\@GitHub\WinRTNewsReader\WinRTNewsReader.Win8App\WinRTNewsReader.Win8App.csproj;x86

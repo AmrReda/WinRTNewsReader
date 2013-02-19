@@ -1,0 +1,10 @@
+Assets\BadgeLogo.png
+Assets\Logo.png
+Assets\SmallLogo.png
+Assets\SplashScreen.png
+Assets\StoreLogo.png
+App.xaml
+Common\AppStyles.xaml
+Common\StandardStyles.xaml
+Views\MainPage.xaml
+Settings\feed_data.sqlite

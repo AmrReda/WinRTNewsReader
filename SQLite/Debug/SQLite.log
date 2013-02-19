@@ -1,0 +1,24 @@
+﻿Build started 2/19/2013 6:16:02 PM.
+     1>Project "K:\MyProjects\@GitHub\WinRTNewsReader\SQLite\SQLite.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"K:\MyProjects\@GitHub\WinRTNewsReader\SQLite\..\Includes\\" /I"K:\MyProjects\@GitHub\WinRTNewsReader\SQLite\\" /I"Generated Files\\" /IDebug\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _WINRT_DLL /D _WINDLL /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"pch.h" /Fp"Debug\pch.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj pch.cpp
+         pch.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"K:\MyProjects\@GitHub\WinRTNewsReader\SQLite\..\Includes\\" /I"K:\MyProjects\@GitHub\WinRTNewsReader\SQLite\\" /I"Generated Files\\" /IDebug\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _WINRT_DLL /D _WINDLL /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\pch.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj SQLite.cpp SQLiteStatement.cpp
+         SQLite.cpp
+         SQLiteStatement.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"K:\MyProjects\@GitHub\WinRTNewsReader\SQLite\..\Includes\\" /I"K:\MyProjects\@GitHub\WinRTNewsReader\SQLite\\" /I"Generated Files\\" /IDebug\ /ZI /nologo /W3 /WX- /sdl /MP /Od /Oy- /D SQLITE_OS_WINRT /D _WINRT_DLL /D _WINRT_DLL /D _WINDLL /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt /bigobj sqlite3.c
+         sqlite3.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"K:\MyProjects\@GitHub\WinRTNewsReader\Debug\SQLite\SQLite.dll" /INCREMENTAL /NOLOGO uuid.lib msxml6.lib shcore.lib runtimeobject.lib /MANIFEST:NO /DEBUG /PDB:"K:\MyProjects\@GitHub\WinRTNewsReader\Debug\SQLite\SQLite.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /APPCONTAINER /WINMD /WINMDFILE:"K:\MyProjects\@GitHub\WinRTNewsReader\Debug\SQLite\SQLite.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /KEYFILE:"K:\MyProjects\@GitHub\WinRTNewsReader\SQLite\..\..\..\BuildTools\Alex.snk" /DLL Debug\pch.obj
+         Debug\SQLite.obj
+         Debug\sqlite3.obj
+         Debug\SQLiteStatement.obj
+            Creating library K:\MyProjects\@GitHub\WinRTNewsReader\Debug\SQLite\SQLite.lib and object K:\MyProjects\@GitHub\WinRTNewsReader\Debug\SQLite\SQLite.exp
+         SQLite.vcxproj -> K:\MyProjects\@GitHub\WinRTNewsReader\Debug\SQLite\SQLite.dll
+       _GenerateProjectPriFileCore:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\MakePri.exe New -ProjectRoot "K:\MyProjects\@GitHub\WinRTNewsReader\SQLite\\" -ConfigXml Debug\priconfig.xml -OutputFile "K:\MyProjects\@GitHub\WinRTNewsReader\Debug\SQLite\SQLite.pri" -IndexName SQLite -Verbose -Overwrite  
+     1>Done Building Project "K:\MyProjects\@GitHub\WinRTNewsReader\SQLite\SQLite.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.04
